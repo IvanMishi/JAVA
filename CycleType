@@ -23,8 +23,8 @@ public class Cycle {
           boolean ValBool = ValueWhile > 5;  // Значение 0 > 5 = true
             //while(ValueWhile < 5){   //Бесконечный цикл, т.к значение в условиях всегда (10>5) true в терминал будет выводится While пока работает программа
             //while(ValueWhile < 5) { // Аргуметы - выполнить пока 0 < 5
-            ValueWhile = ValueWhile + 1; //Каждый раз когда цикл проходит к переменной ValueCycleWhile добавит значение 1 и остановит выполнение кода при условии 5 == 5
-            System.out.println("Cycle While = " + " "  + " it is true let's continue");
+            //ValueWhile = ValueWhile + 1; //Каждый раз когда цикл проходит к переменной ValueCycleWhile добавит значение 1 и остановит выполнение кода при условии 5 == 5
+            System.out.println("Cycle While = " + " " + " it is true let's continue");
         }
         
         //Цикл for.
