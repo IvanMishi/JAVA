@@ -1,0 +1,12 @@
+package org.example;
+
+public class StringWork {
+    public static void main(String[] args) {
+        //Replace string
+        String strRep = "it long stroke";
+        //Method "raplace", when in anguments set old sybol and it change at a new symbol
+        strRep = strRep.replace("long", "short");//if use "" when will insert "void"
+        System.out.println(strRep);//
+    }
+    
+}
