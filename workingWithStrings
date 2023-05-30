@@ -7,6 +7,12 @@ public class StringWork {
         //Method "raplace", when in anguments set old sybol and it change at a new symbol
         strRep = strRep.replace("long", "short");//if use "" when will need to insert "void"
         System.out.println(strRep);// "it stroke"
+        
+        //Convert string to double number 
+        String strDouble = "3.14";
+        Double numDouble = Double.parseDouble(strDouble);//Method for the convert
+        System.out.println(numDouble); // => 3.14
+        System.out.println("strDouble - this is string " + (strDouble instanceof String));
+        System.out.println("numDouble - this is double number " + (numDouble instanceof Double));
     }
-    
 }
