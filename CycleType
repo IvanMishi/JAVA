@@ -54,5 +54,15 @@ public class CycleType {
             int result = value1 * value2;
             System.out.println("Произведение чисел равно: " + result);//Вывести результат в терминал и начать цикл заново
        }
+       //Условный оператор if если условие в круглых скобках верно, то выполним инструкцию в теле
+        int ifInt = 0;
+        if (ifInt > 5){
+            System.out.println("It is less than 5");
+        }//Можно создать новое условие и проверить его
+        else if (ifInt < 5) {
+            System.out.println("It is more than 5");
+        }//Если же условие отработало не верно ifInt == 5 (false) то можно проверить еще одно условие или вывести резудьтат
+        else {
+            System.out.println("Check your numbers! Something is not true");
     }
 }
