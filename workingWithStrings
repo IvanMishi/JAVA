@@ -2,17 +2,17 @@ package org.example;
 
 public class StringWork {
     public static void main(String[] args) {
-        //Replace string
+        //Замена значений в строке
         String strRep = "it long stroke";
-        //Method "raplace", when in anguments set old sybol and it change at a new symbol
-        strRep = strRep.replace("long", "short");//if use "" when will need to insert "void"
-        System.out.println(strRep);// "it stroke"
+        //Метод "raplace", в аргументы передаем сначала значения которые нужно заменить, затем знаения на которые нужно заменить
+        strRep = strRep.replace("long", "short");//Если использовать пустую строку "" тогда будет вставлен прбельный символ
+        System.out.println(strRep);// результат: "it stroke"
         
-        //Convert string to double number 
+        //Конверитровать строку в число
         String strDouble = "3.14";
-        Double numDouble = Double.parseDouble(strDouble);//Method for the convert
+        Double numDouble = Double.parseDouble(strDouble);//Метод преобразования строки в число 
         System.out.println(numDouble); // => 3.14
-        System.out.println("strDouble - this is string " + (strDouble instanceof String));
-        System.out.println("numDouble - this is double number " + (numDouble instanceof Double));
+        System.out.println("strDouble - this is string " + (strDouble instanceof String));///Проверка на соответствие типу данных - строка
+        System.out.println("numDouble - this is double number " + (numDouble instanceof Double));//Проверка на соответствие типу данных - число
     }
 }
